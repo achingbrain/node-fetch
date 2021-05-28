@@ -1,3 +1,8 @@
+# 🚨 Temporary fork 🚨
+
+This is a temporary fork of node-fetch with the fix from [node-fetch#1172](https://github.com/node-fetch/node-fetch/pull/1172) merged. It will not be updated or maintained.
+
+
 node-fetch
 ==========
 
