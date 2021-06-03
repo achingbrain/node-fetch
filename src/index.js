@@ -57,7 +57,7 @@ export default function fetch(url, opts) {
 				destroyStream(request.body, error);
 			}
 			if (!response || !response.body) return;
-			response.body.emit('error', err);
+			response.body.emit('error', error);
 		}
 
 		if (signal && signal.aborted) {
